@@ -8,4 +8,4 @@ it('expect to render Card Component', () => {
 
 it('expect to render Card Component/snapshot', () => {
     expect(shallow(<Card />)).toMatchSnapshot();
-});
+}); 
